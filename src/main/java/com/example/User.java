@@ -1,6 +1,7 @@
 package com.example;
 import java.util.Date;
-import org.springframework.beans.factory.annotation.Value;
+
+import org.springframework.beans.factory.annotation.Value; //Esta es la libreria que me pedia el compilador
 public class User {
    @Value("Beto")
    private String name;
