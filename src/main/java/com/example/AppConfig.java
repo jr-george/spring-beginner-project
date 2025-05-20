@@ -6,9 +6,17 @@ import org.springframework.context.annotation.Configuration;
 @Configuration
 
 public class AppConfig {
+   
+   
    @Bean
    public HelloWorld helloWorld () {
       return new HelloWorld();
    }
+   @Bean 
+   public User user(){
+      return new User();
+   }
+   
+   
 }
 
