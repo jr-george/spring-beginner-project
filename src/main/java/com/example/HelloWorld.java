@@ -8,6 +8,6 @@ public class HelloWorld {
    public void sayHello () {
       //System.out.println("Hello World!");
       
-      System.out.printf("%s, %s %s %s", "Hello", user.getName(), user.getLastName(), user.getBirthDate());
+      System.out.printf("%s, %s %s %tF", "Hello", user.getName(), user.getLastName(), user.getBirthDate());
    }
 }
